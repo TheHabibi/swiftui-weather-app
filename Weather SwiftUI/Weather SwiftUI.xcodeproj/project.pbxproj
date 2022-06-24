@@ -14,6 +14,9 @@
 		0994503428661E0700DDE0E5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994503328661E0700DDE0E5 /* LocationManager.swift */; };
 		099450372866213700DDE0E5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099450362866213700DDE0E5 /* WelcomeView.swift */; };
 		099450392866250100DDE0E5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099450382866250100DDE0E5 /* LoadingView.swift */; };
+		099450452866323C00DDE0E5 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099450442866323C00DDE0E5 /* WeatherManager.swift */; };
+		099450472866326900DDE0E5 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099450462866326900DDE0E5 /* APIKey.swift */; };
+		099450492866339000DDE0E5 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 099450482866339000DDE0E5 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		0994503328661E0700DDE0E5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		099450362866213700DDE0E5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		099450382866250100DDE0E5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		099450442866323C00DDE0E5 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		099450462866326900DDE0E5 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		099450482866339000DDE0E5 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 		0994501828661D4600DDE0E5 = {
 			isa = PBXGroup;
 			children = (
+				099450482866339000DDE0E5 /* .gitignore */,
 				0994502328661D4600DDE0E5 /* Weather SwiftUI */,
 				0994502228661D4600DDE0E5 /* Products */,
 			);
@@ -62,6 +69,7 @@
 				0994503228661DF300DDE0E5 /* Managers */,
 				0994502828661D4600DDE0E5 /* Assets.xcassets */,
 				0994502A28661D4600DDE0E5 /* Preview Content */,
+				099450462866326900DDE0E5 /* APIKey.swift */,
 			);
 			path = "Weather SwiftUI";
 			sourceTree = "<group>";
@@ -78,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				0994503328661E0700DDE0E5 /* LocationManager.swift */,
+				099450442866323C00DDE0E5 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0994502C28661D4600DDE0E5 /* Preview Assets.xcassets in Resources */,
+				099450492866339000DDE0E5 /* .gitignore in Resources */,
 				0994502928661D4600DDE0E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				099450452866323C00DDE0E5 /* WeatherManager.swift in Sources */,
+				099450472866326900DDE0E5 /* APIKey.swift in Sources */,
 				0994502728661D4600DDE0E5 /* ContentView.swift in Sources */,
 				0994502528661D4600DDE0E5 /* Weather_SwiftUIApp.swift in Sources */,
 				0994503428661E0700DDE0E5 /* LocationManager.swift in Sources */,
