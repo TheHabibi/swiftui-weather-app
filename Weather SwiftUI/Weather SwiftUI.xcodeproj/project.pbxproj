@@ -13,6 +13,7 @@
 		0994502C28661D4600DDE0E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0994502B28661D4600DDE0E5 /* Preview Assets.xcassets */; };
 		0994503428661E0700DDE0E5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994503328661E0700DDE0E5 /* LocationManager.swift */; };
 		099450372866213700DDE0E5 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099450362866213700DDE0E5 /* WelcomeView.swift */; };
+		099450392866250100DDE0E5 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099450382866250100DDE0E5 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0994502B28661D4600DDE0E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0994503328661E0700DDE0E5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		099450362866213700DDE0E5 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		099450382866250100DDE0E5 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			children = (
 				0994502628661D4600DDE0E5 /* ContentView.swift */,
 				099450362866213700DDE0E5 /* WelcomeView.swift */,
+				099450382866250100DDE0E5 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				0994502728661D4600DDE0E5 /* ContentView.swift in Sources */,
 				0994502528661D4600DDE0E5 /* Weather_SwiftUIApp.swift in Sources */,
 				0994503428661E0700DDE0E5 /* LocationManager.swift in Sources */,
+				099450392866250100DDE0E5 /* LoadingView.swift in Sources */,
 				099450372866213700DDE0E5 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,6 +295,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weather SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = FV7ZPNN2R6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Weather SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = FV7ZPNN2R6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
