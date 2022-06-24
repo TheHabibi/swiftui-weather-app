@@ -15,7 +15,7 @@ struct ContentView: View {
             WelcomeView()
                 .environmentObject(locationManager)
         }
-        .background(.blue)
+        .background(.teal)
         .preferredColorScheme(.dark)
     }
 }
